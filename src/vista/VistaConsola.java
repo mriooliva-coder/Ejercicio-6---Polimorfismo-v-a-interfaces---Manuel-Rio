@@ -11,6 +11,7 @@ public class VistaConsola {
     private ControladorIntegraciones controlador;
     private Scanner sc;
 
+    // Cambio de diseno: recibe el Scanner del Main para no abrir dos sobre System.in
     public VistaConsola(ControladorIntegraciones controlador, Scanner sc) {
         this.controlador = controlador;
         this.sc = sc;
